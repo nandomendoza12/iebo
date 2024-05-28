@@ -1,0 +1,118 @@
+/* /* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(53, 211, 211, 0.708);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: start;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: royalblue
+
+}
+
+.titulo {
+    text-align: justify;
+    margin-bottom: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Estilos para el título */
+.titulo h1 {
+    color: #333;
+    font-size: 24px;
+
+}
+
+/* Estilos para los párrafos */
+.container p {
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+
+/* le damos animacion al titulo */
+@keyframes cambioColor {
+    0% {
+        color: red;
+    }
+    50% {
+        color: blue;
+    }
+    100% {
+        color: violet;
+    }
+}
+
+.mititulo {
+    animation: cambioColor 3s infinite; /* Nombre de la animación, duración, y repetición */
+}
+
+
+/* Damos estilos a nuestra seccion de requisitos*/
+.requisitos {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    margin-top: 20px;
+    background-color: aquamarine;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+
+
+
+/* Estilos para el mensaje de ofrecimiento */
+.Ofrecimiento {
+    display: block;
+    width: 80%;
+    padding: 10px;
+    border: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    background-color: hsl(137, 94%, 66%);
+    font-weight: bold;
+    font-size: large;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0,  0, 0.19);
+    -webkit-transition: all .3s ease-in-out; /* Chrome and Safari */
+    transition: all .3s ease-in-out;
+    display: inline-block;
+}
+.Ofrecimiento ul li{
+    display: flex;
+    flex-direction: column;
+}
+
+.Redes{
+    display: contents;
+    text-align: justify;
+    margin-bottom: 30px;
+    background-color: #ccc;
+    color: black;
+} 
+
+/*Le damos estilos a las fotos*/
+.imagen1 img {
+    max-width: 800px; /* Establece el ancho máximo de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-bottom: 30px;
+}
+
+.imagen2 img{
+    max-width: 600px;
+    height: auto;
+    margin-top: 30px;
+    float: right;
+}
+
+.imagen3 img{
+    max-width: 700px;
+    height: auto;
+    margin-top: 25px;
+}
+
